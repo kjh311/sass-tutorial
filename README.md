@@ -4,5 +4,6 @@ Rudamentary Sass concepts:
 * mixins
 * extends
 * include
+* nesting
 
 * Using Npm Sass
