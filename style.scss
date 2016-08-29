@@ -1,0 +1,38 @@
+/*
+Tutorial:
+http://sass-lang.com/guide
+*/
+
+
+/*Variables*/
+$primaryColor: #eeffcc;
+$secondaryColor: red;
+$radius: 20px;
+
+body {
+    background: $primaryColor;
+}
+
+/*Nesting*/
+.main{
+  p{
+    color: $secondaryColor;
+  }
+}
+
+/*Mixin*/
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+#tiger{
+  @include border-radius($radius);
+}
+
+/*@extend*/
+#parrot{
+  @extend #tiger;
+}

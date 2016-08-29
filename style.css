@@ -1,0 +1,22 @@
+/*
+Tutorial:
+http://sass-lang.com/guide
+*/
+/*Variables*/
+body {
+  background: #eeffcc; }
+
+/*Nesting*/
+.main p {
+  color: red; }
+
+/*Mixin*/
+#tiger, #parrot {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }
+
+/*@extend*/
+
+/*# sourceMappingURL=style.css.map */
